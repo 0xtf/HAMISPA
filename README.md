@@ -41,7 +41,7 @@ Make sure that the private subnets don't have public IP's being given by changin
 Default | All | All | sg-0a5308bd5XXXXX (default) | Default SG |
 RDS | TCP | 3306 | sg-0a5308bd5XXXXX (default) | Traffic within the VPC |
 ALB | TCP | 80,443 | 0.0.0.0/0 | Allow the internet to reach the load-balancer |
-SSH | TCP | 22 | your_ip | SSH to Bastion, limited to your IP |
+SSH | TCP | 22 | your\_ip | SSH to Bastion, limited to your IP |
 
 Where are the groups applied:
 
@@ -130,6 +130,8 @@ The application load balancer, also knows as Elastic Load Balancer, is the compo
 ALB goes hand-in-hand with AutoScalling Groups, so before actually creating the ALB, we need to create a Launch Configuration and Target Group. After both of those are created, proceed to the ALB creation.
 
 **Note about health check**: When configuring a file and return code to consider your instances healthy, make sure you create a static .html file in your MISP codebase that you can point to, instead of requesting the default /users/login.
+
+![overview](./images/alb.png)
 
 ## Additional features
 
