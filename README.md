@@ -137,6 +137,10 @@ ALB goes hand-in-hand with AutoScalling Groups, so before actually creating the 
 
 In the presentation we mentioned **AWS Shield** and **AWS WAF**, a DoS protection service that is enabled on all AWS assets exposed to the internet and a web-application firewall that can be enabled with standard or custom rules. 
 
+## The future
+
+* Inclusion of ElastiCache
+
 # Resources
 
 The videos from the presentation that was given during the summit are available here:
@@ -146,3 +150,9 @@ The videos from the presentation that was given during the summit are available 
 * [HAMISPA Demo - Apache Failure](https://www.youtube.com/watch?v=Ni8IygluM9g)
 * [HAMISPA Demo - CPU Stress](https://www.youtube.com/watch?v=Ohuko2_4H0E)
 * [HAMISPA Demo - Termination Recovery](https://www.youtube.com/watch?v=ZKYLYYNejGM)
+
+# Ideas/Contact
+
+The biggest objective of this project is not to create an architecture but to start a discussion around what can be done for different deployments of MISP. We encourage everyone who is interested in this topic to send ideas/suggestions/bugs and help us build a better high availability MISP deployment.
+
+Feel free to open [issues](./issues) in this project or if you'd like to chat, visit the Gitter channel of the [MISP-cloud](https://github.com/MISP/misp-cloud) project. You can also ping me on [Twitter - @0xtf](https://twitter.com/0xtf).
