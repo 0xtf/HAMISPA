@@ -155,4 +155,4 @@ The videos from the presentation that was given during the summit are available 
 
 The biggest objective of this project is not to create an architecture but to start a discussion around what can be done for different deployments of MISP. We encourage everyone who is interested in this topic to send ideas/suggestions/bugs and help us build a better high availability MISP deployment.
 
-Feel free to open [issues](./issues) in this project or if you'd like to chat, visit the Gitter channel of the [MISP-cloud](https://github.com/MISP/misp-cloud) project. You can also ping me on [Twitter - @0xtf](https://twitter.com/0xtf).
+Feel free to open an [issue](https://github.com/0xtf/HAMISPA/issues) in this project or if you'd like to chat, visit the Gitter channel of the [MISP-cloud](https://github.com/MISP/misp-cloud) project. You can also ping me on [Twitter - @0xtf](https://twitter.com/0xtf).
